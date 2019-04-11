@@ -1,6 +1,13 @@
 # romkan-cli
 Simple romaji&lt;->kana converter CLI utility based on soimort's romkan
 
+## Installation
+
+```
+sudo curl https://raw.githubusercontent.com/josephsurin/romkan-cli/master/romkan.py -o /usr/local/bin/romkan
+sudo chmod a+rx /usr/local/bin/romkan
+```
+
 ## Usage
 
 ```
