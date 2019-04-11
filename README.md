@@ -17,4 +17,19 @@ optional arguments:
                         to_hepburn, to_kunrei, to_roma
 ```
 
+## Examples
+
+```
+> romkan にんじゃ
+ninja
+> romkan ninja
+にんじゃ
+> romkan ninzya
+にんじゃ
+> romkan ニンジャ
+ninja
+> romkan -t to_kunrei ニンジャ
+ninzya
+```
+
 See https://github.com/soimort/python-romkan for more information.
